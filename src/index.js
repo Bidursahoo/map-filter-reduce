@@ -75,4 +75,12 @@ var sumWithReduce = numbers.reduce((accumilator , currentNum)=>{
 
 //Find - find the first item that matches from an array.
 
+var na = numbers.find((num)=>{
+  return num>10;
+})
+
+
 //FindIndex - find the index of the first item that matches.
+var na = numbers.findIndex((num)=>{
+  return num>10;
+})
