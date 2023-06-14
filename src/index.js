@@ -33,7 +33,19 @@ numbers.forEach(function(x){
 })
 
 
+//filter method and for each
 
+
+
+const numNum = numbers.filter((num)=>{
+  return num >10
+})
+//using foreach
+numbers.forEach((num)=>{
+  if(num>10){
+    newNum.push(num);
+  }
+})
 
 //Map -Create a new array by doing something with each item in an array.
 
