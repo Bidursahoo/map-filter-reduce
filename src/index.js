@@ -47,6 +47,26 @@ numbers.forEach((num)=>{
   }
 })
 
+
+
+
+
+
+
+//for-each
+
+var noNum = 0;
+numbers.forEach((currentNum)=>{
+  noNum+=currentNum;
+})
+
+
+//reduce
+
+var sumWithReduce = numbers.reduce((accumilator , currentNum)=>{
+  return accumilator+currentNum
+})
+
 //Map -Create a new array by doing something with each item in an array.
 
 //Filter - Create a new array by keeping the items that return true.
